@@ -1,0 +1,39 @@
+/* Home page */
+/*Login Form*/
+.login{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width:100%;
+    }
+button:hover{
+    opacity:0.9;
+}
+input[type=text],input[type=password]{
+    width:100%;
+    border: 1px solid;
+    padding: 10px 15px;
+    margin: 8px 0;
+    }
+.fpwd
+{
+    float: right;
+    cursor:pointer;
+}
+form{
+    border:1px solid;
+    width:40%;
+    padding: 10px 15px;
+   }
+.img-circle{
+    width:90px;
+    border-radius:90px;
+}
+
+/*update box*/
+.col-m-4{
+    border: 1px solid;
+}

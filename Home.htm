@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="style.css">
+
+<head>
+  <title>Business Quiz</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+  <!--Navigation Bar-->
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+        <a class="navbar-brand" href="#">Business Quiz</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="download.html">Downloads <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">CEOs Names</a></li>
+              <li><a href="#">Tag Lines</a></li>
+              <li><a href="#">CEOs Images</a></li>
+              <li><a href="#">Full Company Names</a></li>
+              <li><a href="#">Identifying Ads</a></li>
+            </ul>
+          </li>
+          <li><a href="dailyquiz.html">Daily Quiz</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<body>
+
+
+  <!--Login Form-->
+
+<div class="row">
+<div class="col-sm-12">
+  <div class="col-md-2"></div>
+  <div class="col-md-6">
+    <form action="/action.php">
+      <center>
+        <legend>Login</legend>
+      </center>
+      <center><img src="Images/login.png" class="img-circle"></center><br>
+      <label>Username</label><br>
+      <input type="text" class="user" placeholder="Enter Username" required><br>
+      <label>Password</label><br>
+      <input type="password" class="psw" placeholder="Enter Password" required><br>
+      <button type="submit" class="login"> login</button><br>
+      <input type="checkbox" checked>Remember me
+      <a class="fpwd" href="forgot.html">forgot password?</a>
+    </form>
+  </div>
+
+
+
+  <!--Update box-->
+  <div class="col-md-4">
+    <strong>Trending</strong>
+    <ul>
+      <li>Daily Quiz #5</li>
+      <li>Daily Quiz #4</li>
+      <li>Daily Quiz #3</li>
+      <li>Daily Quiz #2</li>
+      <li>Daily Quiz #1</li>
+    </ul>
+ </div>
+</div>
+</body>
+
+</html>
